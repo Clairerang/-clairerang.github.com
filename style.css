@@ -468,12 +468,21 @@ nav .fa-solid{
     }
 
     .tab-contents ul li span{
-        font-size: 20px;
+        font-size: 15px;
     }
 
-    .tab-contents.active-tab ul li span br{
-        font-size: 15;
+    #skills{
+        font-size: 15px;
     }
+
+    #experience{
+        font-size: 15px;
+    }
+
+    #education{
+        font-size: 15px;
+    }
+
 
     .tab-links{
         font-size: 16px;
