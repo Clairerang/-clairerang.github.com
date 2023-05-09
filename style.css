@@ -24,6 +24,7 @@ body{
 
 .container{
     padding: 50px 10%;
+    position: relative;
 }
 
 nav{
@@ -37,6 +38,7 @@ nav{
 .logo {
     width: 200px; /* set the width of the logo */
 }
+
 
 nav ul li{
     display: inline-block;
@@ -67,9 +69,27 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
+.position{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+}
+
+.photo{
+    flex-basis: 40%;
+}
+
+.photo img{ 
+    position: absolute;
+    top: 68%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+    width: 20%;
 }
 
 .header-text h1{
@@ -359,15 +379,18 @@ nav .fa-solid{
         width: 100%;
         height: auto;
     }
+      
 
     .logo {
         width: 150px; /* set the width of the logo */
     }
 
+
     .header-text{
         margin-top: 110%;
         font-size: 15px;
     }
+      
 
     .header-text h1{
         font-size: 20px;
